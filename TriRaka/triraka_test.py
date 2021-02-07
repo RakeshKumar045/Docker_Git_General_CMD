@@ -10,8 +10,10 @@ def test():
 
 @app.route("/rakesh")
 def name():
-    return "<Rakesh Kumar Gupta"
+    print("Rakesh Kumar")
+    return "Rakesh Kumar Gupta"
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')

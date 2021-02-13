@@ -2,8 +2,14 @@
 
 service docker status
 
-sudo docker ps -a #get all container dtails sudo docker images sudo docker rm container_id # delete container sudo
-docker rm container_id1 container_id_2 # delete multiple container sudo docker rmi image_id # delete image sudo docker
+sudo docker ps -a #get all container dtails
+
+sudo docker images sudo docker rm container_id # delete container sudo
+
+docker rm container_id1 container_id_2 # delete multiple container
+
+sudo docker rmi image_id # delete image sudo docker
+
 rmi image_id1 image_id2 # delete multiple image
 
 touch Dockerfile #create docker file cat Dockerfile #create docker file, 2 ways: cat or touch

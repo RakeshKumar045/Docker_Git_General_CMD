@@ -7,7 +7,6 @@ app = Flask(__name__)
 def test():
     return render_template('index.html')
 
-
 @app.route("/rakesh")
 def name():
     print("Rakesh Kumar Gupta")
